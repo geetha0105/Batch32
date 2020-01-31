@@ -8,6 +8,7 @@ public class SumofTwoNos {
 
         System.out.print("The sum is" + " " + c);
         //Just added a comment from Intellij
+        //Just added another line
 
 
     }
