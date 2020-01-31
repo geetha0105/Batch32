@@ -7,6 +7,7 @@ public class SumofTwoNos {
        c = a + b;
 
         System.out.print("The sum is" + " " + c);
+        //Just added a comment from Intellij
 
 
     }
