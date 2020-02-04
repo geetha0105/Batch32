@@ -15,6 +15,7 @@ public class Problem05 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the height");
         float height = sc.nextFloat();
+
         System.out.println("Enter the width");
         float width = sc.nextFloat();
 
