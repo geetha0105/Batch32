@@ -13,12 +13,21 @@ public class Problem09 {
         System.out.println("Enter the number");
         int Number = sc.nextInt();
 
-//Checking if the provided number is odd or even
+//Checking if the provided number is odd or even -- without using boolean
         int Result = Number % 2;
         if (Result == 1) {
-            System.out.println("The number is odd" + "" + Number);
+            System.out.println("The number is odd" + " " + Number);
         } else {
-            System.out.println("The number is even" + "" + Number);
+            System.out.println("The number is even" + " " + Number);
+        }
+
+//Checking if the provided number is odd or even -- using boolean
+        boolean isReminder = (Result % 2) == 1;
+        if (isReminder == true) {
+            System.out.println("The number is odd" + " " + Number);
+        } else {
+            System.out.println("The number is even" + " " + Number);
         }
     }
 }
+
