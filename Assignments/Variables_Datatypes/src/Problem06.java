@@ -1,20 +1,26 @@
-
-
+import java.util.Scanner;
 /**
  * Solve (a + b) whole square = a square + b square + 2ab
  * Solve (4a + 5b)2
  *
  * Take the input from command prompt.
  */
-//NEED CORRECTION
+
 public class Problem06 {
     public static void main(String[] args) {
-        int a = 5; int b = 10;
-        int e= a+b;
-         int c = Math.pow (e, 2); //+ (2*5*10);
-        int d = (4*5 + 5*10) * 2;
-        long l = 12828484l;
-        System.out.println("The answer for the first problem is " + c);
-        System.out.println("The answer for the second problem is " + d);
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter num1");
+        int Num1 = sc.nextInt();
+        System.out.println("Enter num2");
+        int Num2 = sc.nextInt();
+
+//Solving (a+b) whole square = a square + b square +2ab
+        int Result1 = (int) Math.pow(Num1, 2) + (int) Math.pow(Num2, 2) + (2 * (Num1 * Num2));
+        System.out.println("The result for a plus b the whole square is " + Result1 );
+
+//Solving (4a + 5b)2
+         int Result2 =((4*Num1) + (5*Num2))*2;
+        System.out.println("The result for (4a + 5b)2 is " + Result2);
+
     }
 }
