@@ -1,3 +1,5 @@
+package Variable_Datatypes;
+
 import java.util.Scanner;
 /**
  * Solve (a + b) whole square = a square + b square + 2ab

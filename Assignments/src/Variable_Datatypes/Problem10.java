@@ -1,4 +1,4 @@
-/* write the program to convert from Celsius to Farenheit
+package Variable_Datatypes;/* write the program to convert from Celsius to Farenheit
 Get the input from the user
  print the out put here.*/
 

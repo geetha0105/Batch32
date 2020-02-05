@@ -1,3 +1,5 @@
+package Variable_Datatypes;
+
 import java.util.Scanner;
 
 /**

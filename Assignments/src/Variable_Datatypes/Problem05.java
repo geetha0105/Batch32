@@ -1,4 +1,4 @@
-/*
+package Variable_Datatypes;/*
 (Area and perimeter of a rectangle) Displays the area and
 perimeter of a rectangle with the width of 6.5 and height of 4.9 using the following
 formula:
@@ -23,6 +23,6 @@ public class Problem05 {
         float perimeter = (height + width) * 2;
 
         System.out.println("The area of the rectangle is " + area);
-        System.out.println("The permineter of the recatangle is " + perimeter);
+        System.out.println("The perimeter of the rectangle is " + perimeter);
     }
 }

@@ -6,7 +6,6 @@
       <module fileurl="file://$PROJECT_DIR$/Batch32.iml" filepath="$PROJECT_DIR$/Batch32.iml" />
       <module fileurl="file://$PROJECT_DIR$/CoreJava/CoreJava.iml" filepath="$PROJECT_DIR$/CoreJava/CoreJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/Assignments/Variables_Data_Types.iml" filepath="$PROJECT_DIR$/Assignments/Variables_Data_Types.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Assignments/Variables_Datatypes/Variables_Datatypes.iml" filepath="$PROJECT_DIR$/Assignments/Variables_Datatypes/Variables_Datatypes.iml" />
     </modules>
   </component>
 </project>

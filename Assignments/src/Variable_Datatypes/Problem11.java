@@ -1,4 +1,4 @@
-//typecast the above float to integer and print the output.
+package Variable_Datatypes;//typecast the above float to integer and print the output.
 
 public class Problem11 {
     public static void main(String[] args) {
