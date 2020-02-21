@@ -18,7 +18,7 @@ public class SumofTwoNos {
             Ar1[i][j] = sc.nextInt();
             Ar2[i][j] = sc.nextInt();
         }
-            //System.out.println(Ar[i][j]);
+            //System.out.println(Ar[i][j])sdsd;
     }
 
         for (i = 0; i < No_of_Rows ; i++){
